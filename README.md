@@ -1,2 +1,4 @@
 # DynamicDataSourceExample
 spring两种方法动态切换数据源
+方法一：TestDynamicDataSource里面
+方法二:TestDynamicDataSource2里面
