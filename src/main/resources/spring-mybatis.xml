@@ -56,6 +56,7 @@
 		<property name="minEvictableIdleTimeMillis" value="300000" />
 		<property name="testWhileIdle" value="true" />
 		<!-- 这里建议配置为TRUE，防止取到的连接不可用 -->
+		<property name="validationQuery" value="select 1"></property>
 		<property name="testOnBorrow" value="true" />
 		<property name="testOnReturn" value="false" />
 		<!-- 打开PSCache，并且指定每个连接上PSCache的大小 -->
